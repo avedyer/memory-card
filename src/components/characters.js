@@ -21,6 +21,12 @@ let characters = [
     Character('The Ice King', images['iceking.png']),
     Character('Marceline', images['marceline.png']),
     Character('Princess Bubblegum', images['pb.png']),
+    Character('Flame Princess', images['flameprincess.png']),
+    Character('The Lich', images['lich.png']),
+    Character('Gunter', images['gunter.png']),
+    Character('Lady Rainicorn', images['rainicorn.png']),
+    Character('Lumpy Space Princess', images['lsp.png']),
+
 ]
 
 export default characters
