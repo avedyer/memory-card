@@ -41,20 +41,23 @@ const Table = (props) => {
     }
 
     return (
-        <div className='table'>
-            {characters.map((character) => {
-                return (
-                    <div className='sleeve' onClick={() => {
-                        console.log(character.name);
-                        logClick(character);
-                    }}>
-                        <Card 
-                        name={character.name} 
-                        img={character.img}
-                    />
-                    </div>
-                )
-            })}
+        <div className='game'>
+            <h2 className='score'>{clicked.length} / {characters.length}</h2>
+            <div className='table'>
+                {characters.map((character) => {
+                    return (
+                        <div className='sleeve' onClick={() => {
+                            console.log(character.name);
+                            logClick(character);
+                        }}>
+                            <Card 
+                            name={character.name} 
+                            img={character.img}
+                        />
+                        </div>
+                    )
+                })}
+            </div>
         </div>
     )
 }
