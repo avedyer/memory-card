@@ -1,18 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Card from './card.js'
 
 const Table = (props) => {
 
-    let characters = props.characters;
-    let clicked = []
+    let [characters, setCharacters] = useState(props.characters);
+    let [clicked, setClicked] = useState([])
 
-    function logClick (character) {
+    function logClick(character) {
         if(clicked.some(c => c.name === character.name)) {
-            clicked.length = 0;
+            reset()
             console.log('BzZT')
         }
         else {
             clicked.push(character);
+            shuffle()
 
             if (clicked.length === characters.length) {
                 alert('You Win!');
@@ -22,9 +23,22 @@ const Table = (props) => {
     }
 
     function reset() {
-        clicked.length = 0;
+        shuffle()
+        setClicked([])
     }
 
+    function shuffle() {
+        let newCharacters = []
+
+        while (newCharacters.length < characters.length) {
+            let randomCharacter = characters[Math.floor(Math.random() * characters.length)];
+            if (!newCharacters.some(c => c.name === randomCharacter.name)) {
+                newCharacters.push(randomCharacter);
+            }
+        }
+
+        setCharacters(newCharacters)
+    }
 
     return (
         <div className='table'>
