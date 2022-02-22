@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.88d555d0.css",
+    "main.js": "/memory-card/static/js/main.4c30d8fb.js",
+    "static/media/pb.png": "/memory-card/static/media/pb.5185f5261c4fb603a98e.png",
+    "static/media/bmo.png": "/memory-card/static/media/bmo.c2ad0411987202e0f022.png",
+    "static/media/gunter.png": "/memory-card/static/media/gunter.cb408a99201abbd6bb78.png",
+    "static/media/landscape.jpg": "/memory-card/static/media/landscape.f7f3d77c5b3a4e8b287f.jpg",
+    "static/media/lich.png": "/memory-card/static/media/lich.ac4ab6957fd204da6db0.png",
+    "static/media/finn.png": "/memory-card/static/media/finn.bca6a28aaa02a8de7b93.png",
+    "static/media/flameprincess.png": "/memory-card/static/media/flameprincess.edb2360ce71fbb1ec4b2.png",
+    "static/media/iceking.png": "/memory-card/static/media/iceking.38c5990b1125cd1867a0.png",
+    "static/media/jake.png": "/memory-card/static/media/jake.f14414a1e197d54719a7.png",
+    "static/media/lsp.png": "/memory-card/static/media/lsp.d1ec5ba81d2184e8367b.png",
+    "static/media/earl.png": "/memory-card/static/media/earl.fafa4b0f75b0b0d2f3b4.png",
+    "static/media/marceline.png": "/memory-card/static/media/marceline.daa85b72aafbc44e4a9f.png",
+    "static/media/title.png": "/memory-card/static/media/title.3024b3db8c023efda7e6.png",
+    "static/media/rainicorn.png": "/memory-card/static/media/rainicorn.8051510552a1934ab872.png",
+    "index.html": "/memory-card/index.html",
+    "main.88d555d0.css.map": "/memory-card/static/css/main.88d555d0.css.map",
+    "main.4c30d8fb.js.map": "/memory-card/static/js/main.4c30d8fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88d555d0.css",
+    "static/js/main.4c30d8fb.js"
+  ]
+}
